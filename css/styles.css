@@ -10,6 +10,20 @@ header h1 {
     margin-top: 20px;
 }
 
+.nav-pills>li.active>a {
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover,.product button:hover, footer a:hover {
+    background-color: #edf1f4;
+    color: #5c433f;
+}
+
+nav li {
+    font-size: 15px;
+}
+
 .jumbotron {
     background-image: url('../img/hero.jpg');
     background-size: cover;
@@ -18,9 +32,15 @@ header h1 {
     color: #fff;
 }
 
-.product {
+.product, aside>ul>li>a {
     background-color: #eeddcd;
     border-radius: 5%;
     border: 5px solid rgb(252,252,252);
 }
 
+footer {
+    background-color: #eeddcd;
+    border-style: solid;
+    border-color: #d19256;
+    border-radius: 5px;
+}
